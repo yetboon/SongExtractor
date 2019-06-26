@@ -27,7 +27,7 @@ namespace SongExtractor
 						DirectoryInfo d = new DirectoryInfo(paths[i]);
 						if(!Directory.Exists(finalDestinationFolder))
 							Directory.CreateDirectory(finalDestinationFolder);
-						File.Copy(f.FullName,finalDestinationFolder + d.Name + ".mp3",true);
+						File.Copy(f.FullName,finalDestinationFolder + d.Name + ".mp3");
 					}
 					
 				}
