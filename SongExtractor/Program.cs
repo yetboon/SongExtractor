@@ -27,7 +27,7 @@ namespace SongExtractor
 						DirectoryInfo d = new DirectoryInfo(paths[i]);
 						if(!Directory.Exists(finalDestinationFolder))
 							Directory.CreateDirectory(finalDestinationFolder);
-						File.Copy(f.FullName,finalDestinationFolder + d.Name + ".mp3");
+						copyMultiple(f.FullName,finalDestinationFolder + d.Name + ".mp3");
 					}
 					
 				}
@@ -38,6 +38,15 @@ namespace SongExtractor
 			Console.WriteLine("==DONE==");
 			Console.ForegroundColor = ConsoleColor.Gray;
 			Console.ReadKey();
+		}
+		static void copyMultiple(string sourceFileName, string destFileName)
+		{
+			
+			try {
+				File.Copy(sourceFileName,destFileName);
+			} catch (IOException e) {
+				copyMultiple(sourceFileName,destFileName.Insert(destFileName.Length-4,"0"));
+			}
 		}
 	}
 }
