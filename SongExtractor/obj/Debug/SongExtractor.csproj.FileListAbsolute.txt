@@ -4,3 +4,9 @@ C:\Users\Administrator\Desktop\SongExtractor\SongExtractor\bin\Debug\SongExtract
 C:\Users\Administrator\Desktop\SongExtractor\SongExtractor\bin\Debug\SongExtractor.pdb
 C:\Users\Administrator\Desktop\SongExtractor\SongExtractor\obj\Debug\SongExtractor.exe
 C:\Users\Administrator\Desktop\SongExtractor\SongExtractor\obj\Debug\SongExtractor.pdb
+C:\Users\Administrator\Documents\GitHub\SongExtractor\SongExtractor\bin\Debug\SongExtractor.exe.config
+C:\Users\Administrator\Documents\GitHub\SongExtractor\SongExtractor\bin\Debug\SongExtractor.exe
+C:\Users\Administrator\Documents\GitHub\SongExtractor\SongExtractor\bin\Debug\SongExtractor.pdb
+C:\Users\Administrator\Documents\GitHub\SongExtractor\SongExtractor\obj\Debug\SongExtractor.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\SongExtractor\SongExtractor\obj\Debug\SongExtractor.exe
+C:\Users\Administrator\Documents\GitHub\SongExtractor\SongExtractor\obj\Debug\SongExtractor.pdb
